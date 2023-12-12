@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo  img{
+    width: 100px;
+    height: 100px;
+    list-style: none;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+   
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+html {
+    background: url(/img/bg.jpg)
+    no-repeat center  fixed;
+    background-size: cover;
+    /* overflow: hidden; */ 
+    }
+
+
+nav, ul a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+
+
+}
+
+.nav button{
+    margin-left: 15px;
+    padding: 4px 25px 4px 25px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: transparent;
+    border-radius: 16px;
+    margin-left:  60px;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    
+
+   
+}
+.container{
+    padding: 2%;
+    
+}
+
+.text{
+    color: white;
+   padding-top: 25%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+}
+p{
+margin-top: 15px; 
+}
+
+.social-handle{
+   color: white; 
+   margin-top: 2%;
+   
+}
+
+.btn button{
+    width: 8%;
+    background: #350529;
+    color: white;
+    padding: 10px;
+    margin-top: 1%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 2px 0.1px #cfa2c4;
+    cursor: pointer;
+
+
+}
+
+.btn button:hover{
+background: #cf0f9f;
+color: #350529;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.social-handle ion-icon{
+    color: white;
+    padding-top: 5px;
+    font-size: 25px;
+    padding-right: 3%;
+    /* justify-content: space-between; */
+    
+}
